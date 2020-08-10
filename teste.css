@@ -1,0 +1,151 @@
+* {
+    Margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+html, body {
+    min-height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #212529;
+    height: 90vh;
+}
+a{
+     text-decoration: none;
+     color: whitesmoke;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(39, 43, 51);
+    z-index: 5;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu a{
+    display: block;
+    padding: 10px; 
+    text-align: left;
+}
+.menu a:active{
+    border: 1px solid #ffffff;
+    border-radius: 0.2em;
+}
+img{
+    max-width: 70px;
+    margin:-20px 0px;
+    
+}
+h1 {
+    cursor: pointer;
+    color: whitesmoke; 
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 30px 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif ;
+    text-align: center;
+}
+
+.texto{
+    border-radius: 0.7em;
+    background: #495057;
+    padding: 10px 10px;
+    position: relative;
+    margin: 25px 25px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ods {
+    width:100%;
+    height: 320px;
+    margin-top: 80px;
+    background: linear-gradient(-45deg, #EE7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400%, 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@media screen and (max-width:800px)
+{
+    .ods{
+      height: 270px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@keyframes change
+{
+    0% 
+    {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+/*conteudo*/
+h2{
+    color: #f8f9fa;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+}
+p {
+    color: whitesmoke;
+    font-size: 1.3em;
+    text-align: left;
+}
+.cont_video {
+    position: relative;
+    height: 0px;
+    width: 100%;   
+    padding-bottom: 40%;
+    margin-bottom: 10px;
+ }
+.video {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 800px){
+    .cont_video{
+        padding-bottom: 56%;
+    }
+    .ensino a{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.ensino a{
+    text-decoration: underline;
+    left: 50%;
+    text-align: left;
+    font-size: 10px;
+    text-decoration: underline; 
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    margin: 0;
+    background: #c6def1;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    padding: 8px 480px;
+    margin-left: 20px;
+    /**background: #f60;
+    #menu ul {
+margin: 0;
+list-style:none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    background: #f60;
+    border-radius: 0.5em;
+    font-size: 30px;
+    padding: 20px 30px;
+    display: inline-block;
+    color: white;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 0 1px #930;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background: #f60;
+    color: #fff;
+    box-shadow: 2px 2px 0 1px #930;
+}
+#menu ul li a:active {
+    box-shadow: 0 0 0 0 #930,
+						inset 4px 4px 4px #930;
+			transform: translate(6px, 6px);
+}*/
+}
+/*inicio/barra*/
+ul{
+    list-style: none;
+}
+ul{
+    top:70px;
+    position: absolute;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+img{
+    width:40px;
+}
+input[type="checkbox"]
+{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+nav{
+    background-color: #eff7f69a;
+    width: 350px;
+    height: 100vh;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding:20px 5px;
+}
+a:hover{
+    background: snow;
+    color: black;
+}
+label{
+    padding: 20px 2px;
+    position: absolute;
+    z-index: 1;/*serve pra fazer a barra funcionar*/
+}
+/*fim/barra*/

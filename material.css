@@ -1,0 +1,119 @@
+* {
+    Margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html, body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #212529;
+}
+a{
+     text-decoration: none;
+     color: whitesmoke;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(39, 43, 51);
+    z-index: 5;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu a{
+    display: block;
+    padding: 10px; 
+    text-align: left;
+}
+.menu a:active{
+    border: 1px solid #ffffff;
+    border-radius: 0.2em;
+}
+img{
+    max-width: 70px;
+    margin:-20px 0px;
+    
+}
+.titulo{
+    border-radius: 0.7em;
+    top: 50px;
+    padding: 20px;
+    background: #495057;
+    border-radius: 0.7em;
+    margin: 30px 30px;
+    height: 10vh auto;/*tamanho da pagina*/
+    position: relative;
+
+}
+p {
+    border-radius: 0.7em;
+    top: 30px;
+    padding: 20px;
+    background: #495057;
+    border-radius: 0.7em;
+    margin: 30px 30px;
+    height: 10vh auto;
+    position: relative;
+    color: whitesmoke;
+
+}
+.materias >a {
+    border-radius: 0.7em;
+    top: 15px;
+    padding: 10px;
+    background: #495057;
+    border-radius: 0.7em;
+    margin: 30px 30px;
+    height: 10vh auto;
+    position: relative;
+    margin-right: 50%;
+}
+@media screen and (max-width: 800px){
+
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*conteudo*/
+.p {
+    border-radius: 0.7em;
+    top: 50px;
+    padding: 20px;
+    background: #495057;
+    border-radius: 0.7em;
+    margin: 30px 30px;
+    height: 10vh auto;/*tamanho da pagina*/
+    position: relative;
+    font-size: 35px;
+}
+.p p{
+    text-align: center;
+}
+.p a{
+    font-size: 25px;  
+}
+.p a p{
+    background: cadetblue;
+}
+.p a p:hover {
+    background: rgb(83, 138, 139);
+}
+h1{
+    color: #f8f9fa;
+    padding: 15px;
+    margin: 10px;
+    font-size: 2.5em;
+    text-align: center;
+}
