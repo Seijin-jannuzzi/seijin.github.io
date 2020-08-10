@@ -1,1 +1,0 @@
-# seijin.github.io
