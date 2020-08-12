@@ -1,1 +1,1 @@
-# http//seijin.github.io
+# http://seijin.github.io
